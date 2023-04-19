@@ -93,7 +93,7 @@ function changeRectangulo()
  
 
 function draw() {
-  background(220);
+  background(500);
   figuras.forEach((fig) => 
    {
     fig.draw();

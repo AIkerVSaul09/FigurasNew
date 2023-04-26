@@ -1,6 +1,6 @@
 # Breakout Game
 
-Este es un juego simple de "Breakout" implementado en JavaScript utilizando la biblioteca p5.js. El objetivo del jugador es evitar que la pelota caiga al suelo mientras golpea un bloque para obtener puntos.
+Este código es un juego de pelota (o "Pong") en el que el objetivo es rebotar la pelota con una paleta para evitar que la pelota caiga al suelo. La pelota puede tener tres formas diferentes: una elipse, un triángulo o un cuadrado, y su forma y color cambian aleatoriamente cada vez que se presiona la tecla "Enter". El jugador gana puntos cada vez que la pelota golpea la paleta, y el juego termina cuando la pelota cae al suelo sin ser atrapada por la paleta. El juego se reinicia cuando se presiona la tecla "Espacio".
 
 ## Variables Globales y Constantes
 
@@ -23,3 +23,5 @@ Las clases `Triangulo` y `Cuadrado` extienden la clase `Ball` mediante herencia 
 El polimorfismo se muestra en la función `keyPressed()`, que es un controlador de evento que se llama cuando el usuario presiona una tecla. En esta función, se verifica si la tecla presionada es `ENTER` o `SPACE`. Si se presiona `ENTER`, se actualiza la forma de la pelota, el color y la velocidad de la pelota. Si se presiona `SPACE`, se reinicia el juego con la forma de pelota predeterminada y todas las configuraciones se establecen en sus valores iniciales. Esto demuestra que una función puede tener diferentes comportamientos dependiendo del contexto en el que se llama.
 
 En conclusión, el código utiliza métodos y clases para definir los elementos del juego, condiciones y botones para controlar el comportamiento del juego, y herencia y polimorfismo para extender la funcionalidad del juego.
+
+##UML

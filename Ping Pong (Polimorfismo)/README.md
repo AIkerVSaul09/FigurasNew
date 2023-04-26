@@ -24,4 +24,5 @@ El polimorfismo se muestra en la función `keyPressed()`, que es un controlador 
 
 En conclusión, el código utiliza métodos y clases para definir los elementos del juego, condiciones y botones para controlar el comportamiento del juego, y herencia y polimorfismo para extender la funcionalidad del juego.
 
-##UML
+## UML
+![image](Diagrama sin título.drawio.png)

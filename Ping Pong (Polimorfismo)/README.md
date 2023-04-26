@@ -1,6 +1,6 @@
 # Breakout Game
 
-Este código es un juego de pelota (o "Pong") en el que el objetivo es rebotar la pelota con una paleta para evitar que la pelota caiga al suelo. La pelota puede tener tres formas diferentes: una elipse, un triángulo o un cuadrado, y su forma y color cambian aleatoriamente cada vez que se presiona la tecla "Enter". El jugador gana puntos cada vez que la pelota golpea la paleta, y el juego termina cuando la pelota cae al suelo sin ser atrapada por la paleta. El juego se reinicia cuando se presiona la tecla "Espacio".
+Este código es un juego de pelota (o "Pong")[^1] en el que el objetivo es rebotar la pelota con una paleta para evitar que la pelota caiga al suelo. La pelota puede tener tres formas diferentes: una elipse, un triángulo o un cuadrado, y su forma y color cambian aleatoriamente cada vez que se presiona la tecla "Enter". El jugador gana puntos cada vez que la pelota golpea la paleta, y el juego termina cuando la pelota cae al suelo sin ser atrapada por la paleta. El juego se reinicia cuando se presiona la tecla "Espacio".
 
 ## Variables Globales y Constantes
 
@@ -26,3 +26,7 @@ En conclusión, el código utiliza métodos y clases para definir los elementos 
 
 ## UML
 ![image](https://github.com/AIkerVSaul09/FigurasNew/blob/main/Ping%20Pong%20(Polimorfismo)/PingPong.png?raw=true)
+
+
+# Referencia
+[^1]:https://editor.p5js.org/annawasson/sketches/BQFIoo6s2
